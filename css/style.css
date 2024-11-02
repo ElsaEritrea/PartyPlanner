@@ -1,0 +1,112 @@
+
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Section with Dark Border */
+.dark-border-section {
+    border: 5px solid #333; /* 5px thickness, dark gray color */
+    padding: 20px; /* Adds space inside the section */
+    margin: 20px; /* Adds space outside the section */
+    border-radius: 10px; /* Optional: rounds the corners of the border */
+}
+
+/* Info Section */
+.info-section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Info Item with Border Image */
+.info-item {
+    text-align: center;
+    width: 200px;
+    border: 10px solid transparent;
+    border-image: url("/images.png") 20 stretch; /* Use actual image path */
+}
+
+/* Main and Sub Images */
+.main-image {
+    width: 100px; /* Adjust main image size */
+    height: auto;
+}
+
+.sub-image {
+    width: 50px; /* Adjust sub-image size */
+    height: auto;
+}
+
+/* Centered Container */
+.container {
+    display: grid;
+    place-items: center; /* Centers content both horizontally and vertically */
+    height: 100vh; /* Optional: centers vertically in the viewport */
+}
+
+p {
+    margin-top: 10px; /* Adjust spacing between images and text */
+}
+
+/* Testimonial Section */
+.testimonial-section {
+    background-color: yellowgreen;
+    padding: 40px 20px;
+    font-style: italic;
+    
+}
+
+.quote {
+    font-size: 18px;
+    color: black;
+}
+
+.author {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Call-to-Action Section */
+.cta-section {
+    background-color: brown; /* or another desired color */  
+    padding: 40px 20px;
+}
+
+.cta-content {
+    display: inline-block;
+    text-align: center;
+    max-width: 400px;
+}
+
+.cta-content p {
+    font-size: 18px;
+}
+
+.cta-content button {
+    background-color: white;
+    color: beige;
+    border: 2px solid white; /* Corrected border */
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.cta-content button:hover {
+    color: yellowgreen;
+}
+
+
+.cta-content button:hover {
+    
+    color: yellowgreen;
+}
+
